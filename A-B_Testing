@@ -34,11 +34,11 @@ print(f"Kontrol setindeki ortalama kazanç: {control.Purchase.mean()}  "
 # H0: Normal dağılım varsayımı sağlanmaktadır.
 # H1:Normal dağılım varsayımı sağlanmamaktadır.
 
-    test_stat, pvalue = shapiro(control["Purchase"])
-    print( 'Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
+test_stat, pvalue = shapiro(control["Purchase"])
+print( 'Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 
-    test_stat, pvalue= shapiro(test["Purchase"])
-    print( 'Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
+test_stat, pvalue= shapiro(test["Purchase"])
+print( 'Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 
 #test grubunun p value değeri=0.58, kontrol grubunun p value değeri=0.15 dolayısıyla
 #alpha=0.05 anamlılık değerinden büyük olduğu için H0 hipotezi reddedilemez.
