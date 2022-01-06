@@ -8,7 +8,7 @@ averagebidding ile  maximumbidding arasında dönüşüm getirme(satın alma) ba
 Araştırmanın gerçekleşmesinde A/B testi yani bağımsız iki örneklem t testi uygulayacağız.
 Testin uygulanabilirliği için normallik ve varyans homojenliği varsayımının sağlanması gerekmektedir. 
 
-Verisetinde averagebidding ve maksiumumbidding'in uygulandığı kısımlar test ve control olarak ayrılmış olup,
+Verisetinde averagebidding ve maxiumumbidding'in uygulandığı kısımlar test ve control olarak ayrılmış olup,
 araştırma bu ayrım üzerinden gerçekleştirilecektir.
 
 Verisetini daha yakından tanıyacak olursak, web site bilgilerini içeren bu veri setinde kullanıcıların 
